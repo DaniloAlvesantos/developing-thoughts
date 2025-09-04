@@ -1,0 +1,32 @@
+.logo {
+  width: 6rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+.hero-image {
+  height: 30rem;
+  object-fit: cover;
+  object-position: 80% 20%;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
+  border-radius: inherit;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 4rem;
+    height: 2rem;
+  }
+
+  .hero-image {
+    height: 20rem;
+  }
+}
